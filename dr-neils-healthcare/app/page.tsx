@@ -220,18 +220,6 @@ export default function HomePage() {
                   </Button>
                 </div>
 
-                <div className="flex flex-wrap gap-x-6 gap-y-2 pt-2 text-sm text-ink-secondary">
-                  {[
-                    "200 years of tradition",
-                    "FDA-regulated remedies",
-                    "HSA / FSA eligible",
-                  ].map((item) => (
-                    <span key={item} className="flex items-center gap-2">
-                      <Check className="h-4 w-4 text-accent" aria-hidden="true" />
-                      {item}
-                    </span>
-                  ))}
-                </div>
               </div>
             </BentoCard>
 
