@@ -200,9 +200,9 @@ export default function HomePage() {
                 </Pill>
 
                 <DisplayHeading as="h1">
-                  Homeopathy — Medicine that <em>listens.</em>
+                  Homeopathy — Medicine that <em>listens</em>
                   <br />
-                  Personalized medicine.
+                  Personalized medicine
                 </DisplayHeading>
 
                 <p className="max-w-2xl text-lg leading-relaxed text-ink-secondary md:text-xl">
@@ -302,7 +302,7 @@ export default function HomePage() {
               <Eyebrow>Understanding the modality</Eyebrow>
               <DisplayHeading as="h2">
                 Real medicine, the way it was{" "}
-                <em>practiced before it was rushed</em>.
+                <em>practiced before it was rushed</em>
               </DisplayHeading>
 
               <div className="space-y-5 text-base leading-relaxed text-ink-secondary">
@@ -402,7 +402,7 @@ export default function HomePage() {
           <div className="mb-10">
             <Eyebrow className="mb-4">The system</Eyebrow>
             <DisplayHeading as="h2">
-              A half hour of <em>real listening</em>. A remedy made for you.
+              A half hour of <em>real listening</em> — a remedy made for you
             </DisplayHeading>
           </div>
 
@@ -723,7 +723,7 @@ export default function HomePage() {
           <div className="mb-12">
             <Eyebrow className="mb-4">Transparent inclusions</Eyebrow>
             <DisplayHeading as="h2">
-              What you get for <em>$150</em>.
+              What you get for <em>$150</em>
             </DisplayHeading>
           </div>
 
@@ -773,7 +773,7 @@ export default function HomePage() {
           <div className="mb-12">
             <Eyebrow className="mb-4">The full journey</Eyebrow>
             <DisplayHeading as="h2">
-              From your first click to your <em>first dose</em>.
+              From your first click to your <em>first dose</em>
             </DisplayHeading>
           </div>
 
@@ -814,7 +814,7 @@ export default function HomePage() {
           <div className="mb-12">
             <Eyebrow className="mb-4">Patient stories</Eyebrow>
             <DisplayHeading as="h2">
-              What patients <em>tell us</em>.
+              What patients <em>tell us</em>
             </DisplayHeading>
           </div>
 
@@ -955,9 +955,9 @@ export default function HomePage() {
             <Eyebrow className="text-ink-on-dark/70">Ready when you are</Eyebrow>
 
             <h2 className="font-display text-3xl font-normal leading-[1.05] tracking-tight md:text-5xl">
-              Thirty minutes.
+              Thirty minutes
               <br />
-              One hundred fifty dollars.
+              One hundred fifty dollars
               <br />
               Care that{" "}
               <em className="font-display-italic italic">actually fits</em>.
