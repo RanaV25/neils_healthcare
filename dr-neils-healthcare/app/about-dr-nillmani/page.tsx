@@ -16,6 +16,7 @@ import { Eyebrow } from "@/components/primitives/Eyebrow";
 import { Button } from "@/components/primitives/Button";
 import { BentoGrid } from "@/components/bento/BentoGrid";
 import { BentoCard } from "@/components/bento/BentoCard";
+import Image from "next/image";
 import { testimonials } from "@/content/testimonials";
 
 export const metadata: Metadata = {
@@ -52,18 +53,16 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Photo Placeholder - 2 columns */}
+            {/* Doctor Photo - 2 columns */}
             <div className="lg:col-span-2">
-              <div className="bg-moss-soft border border-border-soft rounded-3xl p-12 md:p-16 aspect-[3/4] flex items-center justify-center">
-                <div className="text-center space-y-4">
-                  <div className="text-6xl">👤</div>
-                  <p className="text-sm text-ink-tertiary">
-                    Real photo of Dr. Nill Mani<br />to be added here
-                  </p>
-                  <p className="text-xs text-ink-tertiary max-w-xs">
-                    Environmental portrait recommended: Dr. Nill Mani in consulting space, natural lighting
-                  </p>
-                </div>
+              <div className="relative rounded-3xl overflow-hidden aspect-[3/4] bg-moss-soft border border-border-soft">
+                <Image
+                  src="/images/dr-nill-mani.jpg"
+                  alt="Dr. Nill Mani — Homeopath, Houston TX"
+                  fill
+                  className="object-cover object-top"
+                  priority
+                />
               </div>
             </div>
           </div>
