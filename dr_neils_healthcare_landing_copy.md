@@ -117,11 +117,6 @@ This is the new layout with all previously-missing sections integrated.
 **Primary CTA:** Book my $150 consultation →
 **Secondary CTA:** See how it works ↓
 
-**Trust micro-strip (3 items with check icons):**
-- ✓ 200 years of tradition
-- ✓ FDA-regulated remedies
-- ✓ HSA / FSA eligible
-
 ---
 
 ### 🟢 TRUST STAT CARD (4 col × 2 rows · sits beside hero)
