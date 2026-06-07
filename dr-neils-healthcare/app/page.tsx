@@ -46,6 +46,7 @@ import { conditions } from "@/content/conditions";
 import { pricingTiers } from "@/content/pricing";
 import { paymentInfo } from "@/content/pricing";
 import { testimonials } from "@/content/testimonials";
+import Image from "next/image";
 import { faqs } from "@/content/faqs";
 
 // Render the lightweight markdown (**bold**, *italic*) used in FAQ answers.
@@ -644,15 +645,14 @@ export default function HomePage() {
           <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-12">
             {/* Photo */}
             <div className="lg:col-span-4">
-              <div className="flex aspect-[3/4] items-center justify-center rounded-3xl border border-border-soft bg-moss-soft p-10">
-                <div className="space-y-3 text-center">
-                  <div className="text-6xl">👤</div>
-                  <p className="text-sm text-ink-tertiary">
-                    Real photo of Dr. Nill Mani
-                    <br />
-                    to be added here
-                  </p>
-                </div>
+              <div className="relative aspect-[3/4] overflow-hidden rounded-3xl border border-border-soft bg-moss-soft">
+                <Image
+                  src="/images/dr-nill-mani.jpg"
+                  alt="Dr. Nill Mani — Homeopath Consultant, Houston TX"
+                  fill
+                  className="object-cover object-top"
+                  priority
+                />
               </div>
             </div>
 
