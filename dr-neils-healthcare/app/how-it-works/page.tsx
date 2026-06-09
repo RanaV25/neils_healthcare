@@ -55,15 +55,15 @@ export default function HowItWorksPage() {
     {
       number: "05",
       title: "Follow-up at 4–6 weeks",
-      meta: "15 minutes, $85",
+      meta: "15 minutes, $45",
       description:
-        "Healing isn't a one-shot deal. We check in to assess what's shifted, what hasn't, and whether we need to adjust. Follow-up consultations are 15 minutes and $85. This is where we fine-tune and track progress over time. Some patients need only one follow-up. Others benefit from ongoing support every 4–8 weeks.",
+        "Healing isn't a one-shot deal. We check in to assess what's shifted, what hasn't, and whether we need to adjust. Follow-up consultations are 15 minutes and $45. This is where we fine-tune and track progress over time. Some patients need only one follow-up. Others benefit from ongoing support every 4–8 weeks.",
     },
   ];
 
   const processFAQs = [
     {
-      question: "What happens during my $150 consultation?",
+      question: "What happens during my $50 consultation?",
       answer:
         "A lot of questions. About your symptoms, your medical history, your sleep, your moods, your stress, your cravings, what time of day you feel best. Every detail helps Dr. Nill Mani match the remedy to *you*. Most consultations run a full 30 minutes. We don't rush.",
     },
@@ -264,7 +264,7 @@ export default function HowItWorksPage() {
                   4. Follow up at 4–6 weeks
                 </h3>
                 <p className="text-base text-ink-secondary leading-relaxed">
-                  Schedule your follow-up consultation (15 minutes, $85) at the 4-6 week mark. Dr. Nill Mani will assess what's working, what's not, and whether to continue, adjust, or change remedies. This is how homeopathy works — iteratively, over time.
+                  Schedule your follow-up consultation (15 minutes, $45) at the 4-6 week mark. Dr. Nill Mani will assess what's working, what's not, and whether to continue, adjust, or change remedies. This is how homeopathy works — iteratively, over time.
                 </p>
               </div>
             </div>
@@ -314,7 +314,7 @@ export default function HowItWorksPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              $150. A half hour with Dr. Nill Mani. A personalized remedy plan in 48 hours. No rush. Real listening.
+              $50. A half hour with Dr. Nill Mani. A personalized remedy plan in 48 hours. No rush. Real listening.
             </p>
 
             <div className="pt-4">

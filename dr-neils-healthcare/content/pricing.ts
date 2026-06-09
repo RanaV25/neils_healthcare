@@ -36,7 +36,7 @@ export const pricingTiers: PricingTier[] = [
     name: "Constitutional Package",
     price: 279,
     duration: "Initial + 2 follow-ups",
-    description: "Saves $41 vs separate bookings",
+    description: "Saves $40 vs separate bookings",
     inclusions: [
       "One 30-minute initial consultation",
       "Two 15-minute follow-ups (within 6 months)",
