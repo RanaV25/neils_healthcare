@@ -20,7 +20,7 @@ export const pricingTiers: PricingTier[] = [
   {
     id: "initial",
     name: "Initial Consultation",
-    price: 150,
+    price: 50,
     duration: "30 minutes",
     description: "For new patients",
     inclusions: [
@@ -34,9 +34,9 @@ export const pricingTiers: PricingTier[] = [
   {
     id: "package",
     name: "Constitutional Package",
-    price: 279,
+    price: 150,
     duration: "Initial + 2 follow-ups",
-    description: "Saves $40 vs separate bookings",
+    description: "Initial + 2 follow-ups · Best value",
     inclusions: [
       "One 30-minute initial consultation",
       "Two 15-minute follow-ups (within 6 months)",
@@ -51,7 +51,7 @@ export const pricingTiers: PricingTier[] = [
   {
     id: "followup",
     name: "Follow-up",
-    price: 85,
+    price: 45,
     duration: "15 minutes",
     description: "For existing patients",
     inclusions: [
