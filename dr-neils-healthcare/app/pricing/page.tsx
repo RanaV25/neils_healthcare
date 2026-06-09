@@ -48,8 +48,6 @@ export default function PricingPage() {
             </p>
 
             <div className="flex flex-wrap justify-center gap-3 pt-4">
-              <Pill variant="accent">HSA & FSA eligible</Pill>
-              <Pill variant="default">Superbills on request</Pill>
               <Pill variant="default">No hidden fees</Pill>
             </div>
           </div>
