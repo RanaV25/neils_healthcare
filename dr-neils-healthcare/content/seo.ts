@@ -13,9 +13,9 @@ export interface PageSEO {
 
 export const seoConfig: Record<string, PageSEO> = {
   "/": {
-    title: "Dr. Neil's Healthcare | Homeopathy in Houston | $150 Consultation",
+    title: "Dr. Neil's Healthcare | Homeopathy in Houston | $50 Consultation",
     description:
-      "Personalized homeopathic care in Houston, Sugar Land, Katy & beyond. 30-minute consultation $150. Remedies delivered in 7 days. Book online.",
+      "Personalized homeopathic care in Houston, Sugar Land, Katy & beyond. 30-minute consultation $50. Remedies delivered in 7 days. Book online.",
     ogImage: "/og/home.jpg",
     keywords: [
       "homeopathy Houston",
@@ -53,9 +53,9 @@ export const seoConfig: Record<string, PageSEO> = {
   },
 
   "/pricing": {
-    title: "Pricing | $150 Homeopathic Consultation | Dr. Neil's Healthcare",
+    title: "Pricing | $50 Homeopathic Consultation | Dr. Neil's Healthcare",
     description:
-      "Transparent pricing for homeopathic care. Initial consultation $150, follow-ups $85. HSA/FSA eligible. No hidden fees. Book online.",
+      "Transparent pricing for homeopathic care. Initial consultation $50, follow-ups $45. HSA/FSA eligible. No hidden fees. Book online.",
     ogImage: "/og/pricing.jpg",
     keywords: [
       "homeopathy consultation cost Houston",
@@ -68,7 +68,7 @@ export const seoConfig: Record<string, PageSEO> = {
   "/book": {
     title: "Book Appointment | Dr. Neil's Healthcare | Houston Homeopathy",
     description:
-      "Book your homeopathic consultation online. In-person or telehealth across Texas. HIPAA-compliant booking. $150 for 30 minutes.",
+      "Book your homeopathic consultation online. In-person or telehealth across Texas. HIPAA-compliant booking. $50 for 30 minutes.",
     ogImage: "/og/book.jpg",
     keywords: [
       "book homeopathy appointment Houston",
@@ -94,7 +94,7 @@ export const seoConfig: Record<string, PageSEO> = {
   "/conditions/allergies": {
     title: "Homeopathy for Allergies in Houston | Cedar Fever, Mold, Oak Pollen",
     description:
-      "Personalized homeopathic relief for Houston's worst allergy seasons. Cedar fever, mold, oak pollen, ragweed. 30-minute consultation $150. Book online.",
+      "Personalized homeopathic relief for Houston's worst allergy seasons. Cedar fever, mold, oak pollen, ragweed. 30-minute consultation $50. Book online.",
     ogImage: "/og/allergies.jpg",
     keywords: [
       "homeopathy for allergies Houston",
