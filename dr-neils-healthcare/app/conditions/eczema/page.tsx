@@ -33,7 +33,7 @@ export default function EczemaPage() {
 
             <div className="pt-4">
               <Button size="large" asChild>
-                <Link href="/book">Book $50 consultation →</Link>
+                <Link href="/book">Book $150 consultation →</Link>
               </Button>
             </div>
           </div>
@@ -109,7 +109,7 @@ export default function EczemaPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              $50 for 30 minutes. A personalized remedy matched to your eczema pattern. Safe for children and adults.
+              $150 for 30 minutes. A personalized remedy matched to your eczema pattern. Safe for children and adults.
             </p>
 
             <div className="pt-4">
