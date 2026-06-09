@@ -78,7 +78,7 @@ export const Header: React.FC = () => {
           <div className="flex items-center gap-4">
             <ThemeToggle />
             <Button asChild className="hidden sm:inline-flex">
-              <Link href="/book">Book — $150</Link>
+              <Link href="/book">Book — $50</Link>
             </Button>
             <Button asChild size="default" className="sm:hidden">
               <Link href="/book">Book</Link>
