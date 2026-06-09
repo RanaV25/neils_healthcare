@@ -21,9 +21,9 @@ import { pricingTiers, paymentInfo } from "@/content/pricing";
 import { getFAQsByCategory } from "@/content/faqs";
 
 export const metadata: Metadata = {
-  title: "Pricing | $50 Homeopathic Consultation | Dr. Neil's Healthcare",
+  title: "Pricing | $150 Homeopathic Consultation | Dr. Neil's Healthcare",
   description:
-    "Transparent pricing for homeopathic care. Initial consultation $50, follow-ups $45. HSA/FSA eligible. No hidden fees. Book online.",
+    "Transparent pricing for homeopathic care. Initial consultation $150, follow-ups $85. HSA/FSA eligible. No hidden fees. Book online.",
 };
 
 export default function PricingPage() {
@@ -116,7 +116,7 @@ export default function PricingPage() {
           <div className="mb-12 text-center">
             <Eyebrow className="mb-4">Transparent inclusions</Eyebrow>
             <DisplayHeading as="h2">
-              What you get for <em>$50.</em>
+              What you get for <em>$150.</em>
             </DisplayHeading>
           </div>
 
@@ -182,7 +182,7 @@ export default function PricingPage() {
                 <li className="flex items-start gap-3">
                   <span className="text-ink-tertiary flex-shrink-0 mt-1">•</span>
                   <div>
-                    <strong className="text-ink-primary">Follow-up consultations</strong> (we recommend one at 4–6 weeks, $45, significantly less than the initial)
+                    <strong className="text-ink-primary">Follow-up consultations</strong> (we recommend one at 4–6 weeks, $85, significantly less than the initial)
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -216,7 +216,7 @@ export default function PricingPage() {
                 Most homeopaths in the U.S. charge <strong>$200–$400</strong> for a new-patient visit. Some charge <strong>$700</strong>.
               </p>
               <p className="text-base text-ink-secondary leading-relaxed">
-                Dr. Nill Mani charges <strong className="text-accent">$50</strong> because we believe individualized care should be accessible to working families, not just the wealthy. Our remedies are also priced honestly — typically $15–$45 — and they often last for months.
+                Dr. Nill Mani charges <strong className="text-accent">$150</strong> because we believe individualized care should be accessible to working families, not just the wealthy. Our remedies are also priced honestly — typically $15–$45 — and they often last for months.
               </p>
             </div>
 
@@ -297,7 +297,7 @@ export default function PricingPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              $50 for 30 minutes. A written remedy plan in 48 hours. Honest answers about
+              $150 for 30 minutes. A written remedy plan in 48 hours. Honest answers about
               what homeopathy can and can't do.
             </p>
 

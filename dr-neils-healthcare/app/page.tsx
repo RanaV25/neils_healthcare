@@ -2,17 +2,17 @@
 // PRIMARY KEYWORD: homeopathy Houston
 // INTENT: Skeptical Houston-area visitor researching homeopathy; build trust, then convert
 // TARGET READER: 30–55, frustrated with rushed conventional care, researching for weeks
-// TOP 3 TRUST SIGNALS: honest about controversy, $50 transparent pricing, real listening (30 min)
+// TOP 3 TRUST SIGNALS: honest about controversy, $150 transparent pricing, real listening (30 min)
 //
 // SECTIONS (in order, per landing copy v3):
 //  1. Hero (8 col) + Trust Stat (4 col)
 //  2. Trust Bar — 4-up benefit chips (full width)
 //  3. What Is Homeopathy (8 col copy + 4 col visual)
-//  4. Bento Grid (signature) — feature, $50, process, 30-min, map, testimonial, conditions, botanical
+//  4. Bento Grid (signature) — feature, $150, process, 30-min, map, testimonial, conditions, botanical
 //  5. Conditions tile grid (8 conditions)
 //  6. Why Houston Chooses Us (4 differentiators)
 //  7. Meet Dr. Nill Mani (bio + photo)
-//  8. What's Included in your $50 consultation
+//  8. What's Included in your $150 consultation
 //  9. How It Works (full 5-step)
 // 10. Testimonials (3 stories)
 // 11. Pricing (3 tiers)
@@ -78,7 +78,7 @@ const trustBar = [
   },
   {
     icon: Wallet,
-    title: "Fair $50 pricing",
+    title: "Fair $150 pricing",
     body: "Most homeopaths charge $200–$700 for a new-patient visit. We don't.",
   },
   {
@@ -120,7 +120,7 @@ const conditionPills = [
 const differentiators = [
   {
     title: "Fair pricing for real time and real expertise.",
-    body: "Most homeopaths in the U.S. charge $200–$400 for a new-patient visit. Some charge $700. Dr. Nill Mani charges $50 because individualized care should be accessible to working families, not just the wealthy. Remedies are priced honestly too — typically $15–$45 — and often last for months. HSA and FSA eligible.",
+    body: "Most homeopaths in the U.S. charge $200–$400 for a new-patient visit. Some charge $700. Dr. Nill Mani charges $150 because individualized care should be accessible to working families, not just the wealthy. Remedies are priced honestly too — typically $15–$45 — and often last for months. HSA and FSA eligible.",
   },
   {
     title: "Classical homeopathy, the way it should be practiced.",
@@ -147,7 +147,7 @@ const included = [
 
 const notIncluded = [
   "Remedies themselves (typically $15–$45, shipped from a licensed pharmacy — you pay the pharmacy, we don't mark up)",
-  "Follow-up consultations (we recommend one at 4–6 weeks, $45, significantly less than the initial)",
+  "Follow-up consultations (we recommend one at 4–6 weeks, $85, significantly less than the initial)",
   "Lab testing (we don't run labs — if you need them, we'll recommend a primary care provider or specialist)",
   "Emergency or acute medical care (we are not a substitute for your primary physician or urgent care)",
 ];
@@ -155,7 +155,7 @@ const notIncluded = [
 const journeySteps = [
   {
     num: "01",
-    title: "Book your consultation ($50)",
+    title: "Book your consultation ($150)",
     body: "Choose a time online. You'll fill out a 10-minute pre-consultation intake form so we don't waste any of your hour together on paperwork.",
   },
   {
@@ -176,7 +176,7 @@ const journeySteps = [
   {
     num: "05",
     title: "Follow-up at 4–6 weeks",
-    body: "Healing isn't a one-shot deal. We check in to assess what's shifted, what hasn't, and whether we need to adjust. Follow-up consultations are 15 minutes and $45.",
+    body: "Healing isn't a one-shot deal. We check in to assess what's shifted, what hasn't, and whether we need to adjust. Follow-up consultations are 15 minutes and $85.",
   },
 ];
 
@@ -213,7 +213,7 @@ export default function HomePage() {
 
                 <div className="flex flex-col gap-4 pt-2 sm:flex-row">
                   <Button size="large" asChild>
-                    <Link href="/book">Book my $50 consultation →</Link>
+                    <Link href="/book">Book my $150 consultation →</Link>
                   </Button>
                   <Button variant="ghost" size="large" asChild>
                     <Link href="#how-it-works">See how it works ↓</Link>
@@ -412,12 +412,12 @@ export default function HomePage() {
               </div>
             </BentoCard>
 
-            {/* Card 2 — STAT $50 (4 × 2) */}
+            {/* Card 2 — STAT $150 (4 × 2) */}
             <BentoCard colSpan={4} rowSpan={2} variant="stat">
               <div className="space-y-2">
                 <Eyebrow>Initial consultation</Eyebrow>
                 <div className="font-display text-7xl font-medium leading-[0.9] tracking-tight text-accent">
-                  $50
+                  $150
                 </div>
                 <p className="text-lg text-ink-primary">
                   For a half hour with Dr. Nill Mani
@@ -711,7 +711,7 @@ export default function HomePage() {
           <div className="mb-12">
             <Eyebrow className="mb-4">Transparent inclusions</Eyebrow>
             <DisplayHeading as="h2">
-              What you get for <em>$50</em>
+              What you get for <em>$150</em>
             </DisplayHeading>
           </div>
 
@@ -790,7 +790,7 @@ export default function HomePage() {
 
           <div className="mt-10 text-center">
             <Button size="large" asChild>
-              <Link href="/book">Ready to start? Book my $50 consultation →</Link>
+              <Link href="/book">Ready to start? Book my $150 consultation →</Link>
             </Button>
           </div>
         </div>
@@ -959,7 +959,7 @@ export default function HomePage() {
 
             <div className="pt-2">
               <Button size="large" asChild>
-                <Link href="/book">Book my $50 consultation →</Link>
+                <Link href="/book">Book my $150 consultation →</Link>
               </Button>
             </div>
 

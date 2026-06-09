@@ -24,7 +24,7 @@ import { testimonials } from "@/content/testimonials";
 export const metadata: Metadata = {
   title: "Homeopathy for Allergies in Houston | Cedar Fever, Mold, Oak Pollen",
   description:
-    "Personalized homeopathic relief for Houston's worst allergy seasons. Cedar fever, mold, oak pollen, ragweed. 30-minute consultation $50. Book online.",
+    "Personalized homeopathic relief for Houston's worst allergy seasons. Cedar fever, mold, oak pollen, ragweed. 30-minute consultation $150. Book online.",
 };
 
 export default function AllergiesPage() {
@@ -80,7 +80,7 @@ export default function AllergiesPage() {
 
             <div className="pt-4 flex flex-col sm:flex-row gap-4">
               <Button size="large" asChild>
-                <Link href="/book">Book $50 consultation →</Link>
+                <Link href="/book">Book $150 consultation →</Link>
               </Button>
               <Button variant="ghost" size="large" asChild>
                 <Link href="/how-it-works">See how it works</Link>
@@ -352,7 +352,7 @@ export default function AllergiesPage() {
             </DisplayHeading>
 
             <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              $50 for 30 minutes. A personalized remedy plan matched to your unique allergy pattern. Relief measured in weeks, not hours.
+              $150 for 30 minutes. A personalized remedy plan matched to your unique allergy pattern. Relief measured in weeks, not hours.
             </p>
 
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center">
