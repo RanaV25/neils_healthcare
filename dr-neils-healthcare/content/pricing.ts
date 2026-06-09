@@ -34,7 +34,7 @@ export const pricingTiers: PricingTier[] = [
   {
     id: "package",
     name: "Constitutional Package",
-    price: 150,
+    price: 120,
     duration: "Initial + 2 follow-ups",
     description: "Initial + 2 follow-ups · Best value",
     inclusions: [
